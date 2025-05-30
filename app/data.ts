@@ -10,15 +10,6 @@ export const projects = [
   },
   {
     id: 2,
-    name: "ThreadCounty",
-    technologies: ["ReactJS", "Python", "HTML", "CSS", "Javascript"],
-    description: `ThreadCount is the process of counting warp and weft threads in fabric to measure quality. It’s done manually or using image processing and AI in modern textile analysis.`,
-    githubLink: "https://github.com/AlphaBeta07/ThreadCounty",
-    //liveAppLink: "https://multi-cipher-framework",
-    imagePath: "/assets/projects/threadcounty.jpg",
-  },
-  {
-    id: 3,
     name: "Portfolio",
     technologies: ["AI", "Machine Learning", "NextJS", "Typescript", "ShadCN"],
     description: `This portfolio website showcases my work, skills, and projects in a clean and easy-to-navigate format. It highlights my experience, achievements, and technical expertise, offering a clear view of my capabilities and previous work.`,
@@ -27,7 +18,7 @@ export const projects = [
     imagePath: "/assets/projects/portfolio.JPG",
   },
   {
-    id: 4,
+    id: 3,
     name: "Esp8266 Drone",
     technologies: ["Cpp","Blynk"],
     description: `Developed a drone that is built using a NodeMCU microcontroller and features wireless control via the Blynk app. It offers real-time flight maneuvering through smartphone-based joystick inputs over Wi-Fi.`,
